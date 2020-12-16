@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Linkando meu arquivo CSS no HTML-->
+    <title>Instagram</title>
+</head>
+
+<body>
+    <!-- CONTAINER PAI -->
+    <!-- Criando a <div> abaixo pois ela vai ser o meu contanei pai que irá segurar o conteudo das imagens do celular e do login, da pagina inicial do instagram -->
+    <div class="instagram-wrapper">
+
+
+        <!-- INICIO PRIMEIRA COLUNA -->
+        <!-- Criando as <div> abaixo pois serão duas colunas, que irão segurar uma as imagens e outra o login, da pagina inicial do instagram -->
+        <div class="instagram-phone">
+            <!-- Abaixo estou inserindo a primeira imagem, da primeira coluna. -->
+            <img src="./img/insta-phone.png" alt="celular">
+        </div> <!-- FIM PRIMEIRA COLUNA -->
+
+
+
+        <!-- INICIO SEGUNDA COLUNA E  PRIMEIRO GRUPO -->
+        <!-- Criando as <div> abaixo pois serão duas colunas, que irão segurar uma as imagens e outra o login, da pagina inicial do instagram -->
+        <div class="instagram-continue">
+
+            <!-- A segunda coluna, essa que estamos, possue 3 containers, entaõ, dividiremos eles em grupo. -->
+            <div class="group">
+                <!-- Inserindo o nome do Instagram -->
+                <img src="./img/nome-instagram.png" class="instagram-logo" alt="instagram logo">
+                <!-- A div abaixo eu criei, pois a foto de perfil do insta é redondinha e criei aqui para editar la no CSS -->
+                <div class="profile-photo">
+                    <!-- Inserindo a foto de perfil -->
+                    <img src="./img/foto-enrico.png" alt="foto de perfil">
+                </div>
+                <!-- Seguindo em ordem na pagina inicial do inta, na sequencia eu tenho dois botões.  -->
+                <!-- No caso aqui eu irie por âncoras e não botões. -->
+                <a href="#" class="instagram-login">Continue como enricoaclemente</a>
+                <a href="#" class="instagram-logout">Remover conta</a>
+            </div> <!-- FIM PRIMEIRO GRUPO -->
+
+
+
+            <!-- INICIO SEGUNDO GRUPO-->
+            <!-- Abaixo estou criando meu segundo grupo daqueles 3 containers que eu tenho. O primeiro ja foi feito acima, basta apenas estilizar no css -->
+            <!-- Abaixo criei meu segundo grupo, que representa o meu segundo container da pagina inicial do instagram. São só textos dentro desse container. -->
+            <div class="group">
+                <p class="not-account">Não é enricoaclemente?</p>
+                <!-- Dentro desse paragrafo, existe uma frase com duas cores diferentes. É o que irei fazer para estilizar la no CSS -->
+                <p class="not-account">
+                    <span class="link-blue">Alternar contas</span>
+                    ou
+                    <span class="link-blue">Inscreva-se</span>
+                </p>
+            </div> <!-- FIM SEGUNDO GRUPO -->
+
+
+
+            <!-- INICIO TERCEIRO GRUPO -->
+            <div class="get-the-app">
+                <p class="get-app">Baixe o aplicativo</p>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
+            </div> <!-- FIM DA SEGUNDA COLA E DO TERCEIRO GRUPO -->
+
+        </div>
+    </div>
+</body>
+
+</html>
